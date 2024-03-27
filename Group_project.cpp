@@ -10,14 +10,14 @@ Due Date:
 #include <fstream>
 
 using namespace std;
-void introduction();
-void Key_Concepts();
-void Code_Templates();
-void Troubleshooting_Guide();
-void Advanced_Applications();
-void Quiz();
-void Exercises();
-void Resources();
+void introduction_group4();
+void Key_Concepts_group4();
+void Code_Templates_group4();
+void Troubleshooting_Guide_group4();
+void Advanced_Applications_group4();
+void Quiz_group4();
+void Exercises_group4();
+void Resources_group4();
 
 int main(){
     int input;
@@ -27,28 +27,28 @@ int main(){
         cin >> input;
         switch(input){
             case 1:
-                introduction();
+                introduction_group4();
                 break;
             case 2:
-                Key_Concepts();
+                Key_Concepts_group4();
                 break;
             case 3:
-                Code_Templates();
+                Code_Templates_group4();
                 break;
             case 4:
-                Troubleshooting_Guide();
+                Troubleshooting_Guide_group4();
                 break;
             case 5:
-                Advanced_Applications();
+                Advanced_Applications_group4();
                 break;
             case 6:
-                Quiz();
+                Quiz_group4();
                 break;
             case 7:
-                Exercises();
+                Exercises_group4();
                 break;
             case 8:
-                Resources();
+                Resources_group4();
                 break;
             case 9:
                 break;
@@ -59,28 +59,28 @@ int main(){
     return 0;
 }
 
-void introduction (){
+void introduction_group4(){
     //Introduction function
 }
-void Key_Concepts(){
+void Key_Concepts_group4(){
     
 }
-void Code_Templates(){
+void Code_Templates_group4(){
 
 }
-void Troubleshooting_Guide(){
+void Troubleshooting_Guide_group4(){
 
 }
-void Advanced_Applications(){
+void Advanced_Applications_group4(){
 
 }
-void Quiz(){
+void Quiz_group4(){
 
 }
-void Exercises(){
+void Exercises_group4(){
 
 }
-void Resources(){
+void Resources_group4(){
     
 }
 
