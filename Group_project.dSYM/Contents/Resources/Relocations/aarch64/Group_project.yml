@@ -11,14 +11,14 @@ relocations:
   - { offsetInCU: 0x4879, offset: 0x4879, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB7v160006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0xC60, symBinAddr: 0x100003B64, symSize: 0x2C }
   - { offsetInCU: 0x4D48, offset: 0x4D48, size: 0x8, addend: 0x0, symName: __ZNSt3__118__constexpr_strlenB7v160006EPKc, symObjAddr: 0xCF8, symBinAddr: 0x100003BFC, symSize: 0x24 }
   - { offsetInCU: 0x71CC, offset: 0x71CC, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002F04, symSize: 0x104 }
-  - { offsetInCU: 0x71F4, offset: 0x71F4, size: 0x8, addend: 0x0, symName: __Z12introductionv, symObjAddr: 0x170, symBinAddr: 0x100003074, symSize: 0x4 }
-  - { offsetInCU: 0x720D, offset: 0x720D, size: 0x8, addend: 0x0, symName: __Z12Key_Conceptsv, symObjAddr: 0x174, symBinAddr: 0x100003078, symSize: 0x4 }
-  - { offsetInCU: 0x7226, offset: 0x7226, size: 0x8, addend: 0x0, symName: __Z14Code_Templatesv, symObjAddr: 0x178, symBinAddr: 0x10000307C, symSize: 0x4 }
-  - { offsetInCU: 0x723F, offset: 0x723F, size: 0x8, addend: 0x0, symName: __Z21Troubleshooting_Guidev, symObjAddr: 0x17C, symBinAddr: 0x100003080, symSize: 0x4 }
-  - { offsetInCU: 0x7258, offset: 0x7258, size: 0x8, addend: 0x0, symName: __Z21Advanced_Applicationsv, symObjAddr: 0x180, symBinAddr: 0x100003084, symSize: 0x4 }
-  - { offsetInCU: 0x7271, offset: 0x7271, size: 0x8, addend: 0x0, symName: __Z4Quizv, symObjAddr: 0x184, symBinAddr: 0x100003088, symSize: 0x4 }
-  - { offsetInCU: 0x728A, offset: 0x728A, size: 0x8, addend: 0x0, symName: __Z9Exercisesv, symObjAddr: 0x188, symBinAddr: 0x10000308C, symSize: 0x4 }
-  - { offsetInCU: 0x72A3, offset: 0x72A3, size: 0x8, addend: 0x0, symName: __Z9Resourcesv, symObjAddr: 0x18C, symBinAddr: 0x100003090, symSize: 0x4 }
+  - { offsetInCU: 0x71F4, offset: 0x71F4, size: 0x8, addend: 0x0, symName: __Z19introduction_group4v, symObjAddr: 0x170, symBinAddr: 0x100003074, symSize: 0x4 }
+  - { offsetInCU: 0x720D, offset: 0x720D, size: 0x8, addend: 0x0, symName: __Z19Key_Concepts_group4v, symObjAddr: 0x174, symBinAddr: 0x100003078, symSize: 0x4 }
+  - { offsetInCU: 0x7226, offset: 0x7226, size: 0x8, addend: 0x0, symName: __Z21Code_Templates_group4v, symObjAddr: 0x178, symBinAddr: 0x10000307C, symSize: 0x4 }
+  - { offsetInCU: 0x723F, offset: 0x723F, size: 0x8, addend: 0x0, symName: __Z28Troubleshooting_Guide_group4v, symObjAddr: 0x17C, symBinAddr: 0x100003080, symSize: 0x4 }
+  - { offsetInCU: 0x7258, offset: 0x7258, size: 0x8, addend: 0x0, symName: __Z28Advanced_Applications_group4v, symObjAddr: 0x180, symBinAddr: 0x100003084, symSize: 0x4 }
+  - { offsetInCU: 0x7271, offset: 0x7271, size: 0x8, addend: 0x0, symName: __Z11Quiz_group4v, symObjAddr: 0x184, symBinAddr: 0x100003088, symSize: 0x4 }
+  - { offsetInCU: 0x728A, offset: 0x728A, size: 0x8, addend: 0x0, symName: __Z16Exercises_group4v, symObjAddr: 0x188, symBinAddr: 0x10000308C, symSize: 0x4 }
+  - { offsetInCU: 0x72A3, offset: 0x72A3, size: 0x8, addend: 0x0, symName: __Z16Resources_group4v, symObjAddr: 0x18C, symBinAddr: 0x100003090, symSize: 0x4 }
   - { offsetInCU: 0x72BC, offset: 0x72BC, size: 0x8, addend: 0x0, symName: __ZNSt3__111char_traitsIcE6lengthEPKc, symObjAddr: 0x384, symBinAddr: 0x100003288, symSize: 0x48 }
   - { offsetInCU: 0x72FC, offset: 0x72FC, size: 0x8, addend: 0x0, symName: __ZNKSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentrycvbB7v160006Ev, symObjAddr: 0x3CC, symBinAddr: 0x1000032D0, symSize: 0x1C }
   - { offsetInCU: 0x7320, offset: 0x7320, size: 0x8, addend: 0x0, symName: __ZNSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEEC1B7v160006ERNS_13basic_ostreamIcS2_EE, symObjAddr: 0x630, symBinAddr: 0x100003534, symSize: 0x34 }
