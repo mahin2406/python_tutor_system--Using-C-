@@ -9,6 +9,39 @@ Due Date:
 #include<iostream>
 
 using namespace std;
+void introduction();
+void Key_Concepts();
+void Code_Templates();
+void Troubleshooting_Guide();
+void Advanced_Applications();
+void Quiz();
+void Exercises();
+void Resources();
 int lib(){
     return 0;
+}
+
+void introduction (){
+    //Introduction function
+}
+void Key_Concepts(){
+    
+}
+void Code_Templates(){
+
+}
+void Troubleshooting_Guide(){
+
+}
+void Advanced_Applications(){
+
+}
+void Quiz(){
+
+}
+void Exercises(){
+
+}
+void Resources(){
+    
 }
