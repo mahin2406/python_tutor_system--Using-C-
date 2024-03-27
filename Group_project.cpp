@@ -17,7 +17,17 @@ void Advanced_Applications();
 void Quiz();
 void Exercises();
 void Resources();
+
 int lib(){
+    int input;
+    do{
+        cout << "Please enter a number to access a section.";
+        cout << "1: Introduction 2:Key Concepts 3: Code Templates 4:Troubleshooting Guide\n";
+        cout << "5:Advanced Applications 6: Quiz 7: Hands-on Exercises 8: Resources and Links\n";
+        cout << "Press 9 to exit."
+        cin << input;
+        
+    } while (input != 9);
     return 0;
 }
 
