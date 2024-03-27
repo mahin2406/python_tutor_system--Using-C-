@@ -22,11 +22,11 @@ void Resources();
 int lib(){
     int input;
     do{
-        cout << "Please enter a number to access a section.";
-        cout << "1: Introduction 2:Key Concepts 3: Code Templates 4:Troubleshooting Guide\n";
-        cout << "5:Advanced Applications 6: Quiz 7: Hands-on Exercises 8: Resources and Links\n";
-        cout << "Press 9 to exit."
-        cin << input;
+        cout << "Please enter a number to access a section." << endl;
+        cout << "1: Introduction \n 2:Key Concepts \n 3: Code Templates \n 4:Troubleshooting Guide\n";
+        cout << "5:Advanced Applications \n 6: Quiz \n 7: Hands-on Exercises \n 8: Resources and Links\n";
+        cout << "Press 9 to exit.";
+        cin >> input;
         switch(input){
             case 1:
                 introduction();
@@ -53,7 +53,7 @@ int lib(){
                 Resources();
                 break;
             case 9:
-                break:
+                break;
             default:
                 cout << "This is not a valid number.\n";
         }
