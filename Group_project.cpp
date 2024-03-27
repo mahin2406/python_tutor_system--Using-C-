@@ -85,3 +85,8 @@ void Exercises(){
 void Resources(){
     
 }
+
+/*
+Resources and Links:
+1. https://www.w3schools.com/python/numpy/numpy_getting_started.asp
+*/
