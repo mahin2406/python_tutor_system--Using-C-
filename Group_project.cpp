@@ -19,12 +19,10 @@ void Quiz();
 void Exercises();
 void Resources();
 
-int lib(){
+int main(){
     int input;
     do{
-        cout << "Please enter a number to access a section." << endl;
-        cout << "1: Introduction \n 2:Key Concepts \n 3: Code Templates \n 4:Troubleshooting Guide\n";
-        cout << "5:Advanced Applications \n 6: Quiz \n 7: Hands-on Exercises \n 8: Resources and Links\n";
+        cout << "Please enter a number to access a section. \n 1: Introduction \n 2:Key Concepts \n 3: Code Templates \n 4:Troubleshooting Guide\n 5:Advanced Applications \n 6: Quiz \n 7: Hands-on Exercises \n 8: Resources and Links\n";
         cout << "Press 9 to exit.";
         cin >> input;
         switch(input){
