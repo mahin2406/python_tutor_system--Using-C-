@@ -60,7 +60,8 @@ int main(){
     } while (input != 9);
     return 0;
 }
-
+    //Introduction through Advanced Applications can probably be implemented by outputting text from a file.
+    //Quiz and Exercises require matching answers to built in data, so it will be more complex.
 void introduction_group4(){
     //Introduction function
 }
