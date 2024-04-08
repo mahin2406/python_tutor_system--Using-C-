@@ -1,0 +1,49 @@
+Here we will go over a trouble shooting guide for common errors and challenges users may encounter!
+
+Starting off with Dictionaries, there are 5 common errors that users may occur
+These 5 common errors are: KeyError, TypeError, ValueError, AttributeError, and RuntimeError
+
+The first common error is KeyError.
+A KeyError occurs when you try to access a key in a dictionary that does not exist.
+A solution to this is to make sure that the key you are trying to access actually exists in the dictionary. This can be done by using the in keyword to check if a key exists before accessing it, or using the .get() method which returns a default value if the key does not exist.
+
+Shown below is an example of the code:
+
+my_dict = {'a':1, "b":2}
+if 'c' in my_dict:
+    value = my_dict['c']
+else:
+    value = None
+
+Another example using the .get() method shown below
+
+value = my_dict.get('c', None)
+
+
+The second common error is TypeError: unhashable type.
+A TypeError occurs when you try to use an unhashable type (like a list or another dictionary) as a key in a dictionary.
+A solution to this is to ensure that you are using only hashable types (like strings, numbers, or tuples) as keys in your dictionary.
+
+Shown below is an example of the code:
+
+my_dict = {[1, 2]: 'value'} #this will raise TypeError
+
+
+The third common error is ValueError: dictionary update sequence element #0 has length X; 2 is required.
+A ValueError occurs when trying to update a dictionary with an invalid sequence.
+A solution to this is to ensure that the sequence used for updating the dictionary has the correct structure, typically a sequence of key-value pairs (e.g., a list of tuples).
+
+Shown below is an example of the code:
+
+my_dict = {}
+my_dict.update([('a', 1) ('b', 2)]) # Correct format
+
+
+The fourth common error is AttributeError: 'dict' object has no attribute 'append'.
+A AttributeError occurs when you try to use the 'append()' method with a dictionary, which does not have this method.
+A solution to this is to use the appropriate method for adding elements to a dictionary, such as 'update()' for adding multiple key-value pairs, or simply assigning values to keys.
+
+Shown below is an example of the code:
+
+my_dict = {}
+my_dict['a'] = 1    #Adding single key-value pair
