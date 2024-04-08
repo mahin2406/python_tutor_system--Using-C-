@@ -73,6 +73,7 @@ void Key_Concepts_group4(){
     string paragraph;
 
     while (getline(file, line)) {
+        
         if (line == "") {  // Empty line indicates end of paragraph
         break;
         }
