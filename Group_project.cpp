@@ -21,7 +21,7 @@ void Quiz_group4();
 void Exercises_group4();
 void Resources_group4();
 
-int main(){
+void group_4(){
     int input;
     do{
         cout << "Please enter a number to access a section. \n 1: Introduction \n 2:Key Concepts \n 3: Code Templates \n 4:Troubleshooting Guide\n 5:Advanced Applications \n 6: Quiz \n 7: Hands-on Exercises \n 8: Resources and Links\n";
@@ -60,8 +60,15 @@ int main(){
     } while (input != 9);
     return 0;
 }
-    //Introduction through Advanced Applications can probably be implemented by outputting text from a file.
-    //Quiz and Exercises require matching answers to built in data, so it will be more complex.
+
+int main(){
+    group_4;
+    return 0;
+}
+
+//Introduction through Advanced Applications can probably be implemented by outputting text from a file.
+//Quiz requires matching answers to built in data, so it will be more complex.
+
 void introduction_group4(){
     //Introduction function
 }
