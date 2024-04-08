@@ -47,3 +47,170 @@ Shown below is an example of the code:
 
 my_dict = {}
 my_dict['a'] = 1    #Adding single key-value pair
+
+
+The fifth common error is RuntimeError: dictionary changed size during iteration:
+A RuntimeError occurs when you try to modify the dictionary (e.g., add or remove items) while iterating over it.
+A solution to this is if you need to modify the dictionary while iterating over it, create a copy of the dictionary or iterate over a copy of its keys instead.
+
+Shown below is an example of the code:
+
+my_dict = {'a': 1, 'b', 2}
+for key in list(my_dict.keys()):    # Iterate over a copy of keys
+    if key.startswith('a')
+        del my_dict[key]
+
+
+The next section we will go over is NumPy, which has 7 common errors that may occur.
+These 7 common errors are: ImportError, AttributeError, ValueError, IndexError, TypeError, AxisError, and RuntimeWarning.
+
+The first common error is ImportError: No module named 'numpy':
+A ImportError occurs when NumPy is not installed in your Python environment.
+A solution to this is to install NumPy using pip: 'pip install numpy'.
+
+
+The second common error is AttributeError: module 'numpy' has no attribute 'array':
+A AttributeError occurs when trying to access a function or attribute that doesn't exist in the numpy module.
+A solution to this is to ensure that you are using the correct function or attribute name. The correct function to create arrays is 'numpy.array()'.
+
+Shown below is an example of the code:
+
+import numpy as np
+my_array = np.array([1, 2, 3])
+
+
+The third common error is ValueError: setting an array element with a sequence:
+A ValueError occurs when trying to assign a sequence (like a list) to an element of a NumPy array.
+A solution to this is by understanding that all NumPy arrays are homogeneous, meaning all elements must have the same data type. Ensure that you are assigning a single value or a sequence with the same data type as the array.
+
+Shown below is an example of the code:
+
+import numpy as np
+my_array = np.zeros(3)
+my_array[0] = [1, 2, 3]  # Incorrect: assigning a list
+my_array[0] = 5          # Correct: assigning a single value
+
+
+The fourth common error is IndexError: too many indices for array:
+A IndexError occurswhen you try to access an element of a NumPy array with too many indices.
+A solution is to check the dimensions of your array and use the appropriate number of indices.
+
+Shown below is an example of the code:
+
+import numpy as np
+my_array = np.array([[1, 2], [3, 4]])
+element = my_array[0, 1]  # Correct: accessing a single element of a 2D array
+
+
+The fifth common error is TypeError: Cannot interpret '<dtype>' as a data type:
+A TypeError occurs when you pass an invalid data type to a NumPy function.
+A solutiion is to ensure that you are using the correct data type or convert the data to the appropriate type.
+
+Shown below is an example of the code:
+
+import numpy as np
+my_array = np.array(['1', '2', '3'])  # Incorrect: array of strings
+my_array = my_array.astype(int)      # Convert to integers
+
+
+The sixth common error is AxisError: axis <N> is out of bounds for array of dimension <M>:
+A AxisError occurs when the specified axis is out of bounds for the given array dimensions.
+A solution is to check the dimensions of your array and ensure that the axis you are specifying is within bounds.
+
+Shown below is an example of the code:
+
+import numpy as np
+my_array = np.array([[1, 2], [3, 4]])
+np.sum(my_array, axis=1)  # Correct: sum along axis 1 (rows)
+
+
+The seventh common error is RuntimeWarning" divide by zero encountered in <operation> or RuntimeWarning: invalid value encountered in <operation>:
+A RuntimeWarning occurs when performing mathematical operations that result in division by zero or other invalid calculations.
+A solution is to checkyour data and ensure that you are handling potential division by zero or invalid values appropriately, such as using conditional statements to avoid problematic operations.
+
+Shown below is an example of the code:
+
+import numpy as np
+my_array = np.array([1, 0, 2])
+result = np.divide(1, my_array, where=my_array != 0)  # Avoid division by zero
+
+
+The last section we will go over are libraries, which have 8 common errors that may occur.
+The 8 common errors are ModuleNotFoundError, ImportError, AttributeError, SyntaxError, TypeError, ValueError, IOError, and PermissionError.
+
+The first common error is ModuleNotFoundError:
+A ModuleNotFoundError occurs when Python cannot find the specified module or library.
+A solution to this is to ensure that the module is installed in your Python environment. You can install missing modules using pip ('pip install <module_name>').
+
+Shown below is an example of the code:
+
+import numpy  # ModuleNotFoundError: No module named 'numpy'
+
+
+The second common error is ImportError:
+A ImportError occurs when there is an issue with importing a module, such as a missing dependency or incorrect usage.
+A solution to this is to check the module's documentation for proper usage. Ensure that all dependencies are installed and that the module is accessible in your Python environment.
+
+Shown below is an example of the code:
+
+from sklearn import SomeModel  # ImportError: cannot import name 'SomeModel'
+
+
+The third common error is AttributeError:
+A AttributeError occurs when trying to access an attribute or method that does not exist in an object.
+A solution to this is to check the documentation for the correct attribute or method name. Ensure that you are using the object correctly.
+
+Shown below is an example of the code:
+
+import pandas as pd
+df = pd.DataFrame()
+df.shead()  # AttributeError: 'DataFrame' object has no attribute 'shead'
+
+
+The fourth common error is SyntaxError:
+A SyntaxError occurs when there is a syntax issue in your code, such as missing parentheses, commas, or quotes.
+A solution to this is to review your code for syntax errors and correct them accordingly.
+
+Shown below is an example of the code:
+
+print("Hello world)  # SyntaxError: EOL while scanning string literal
+
+
+The fifth common error is TypeError:
+A TypeError occurs when an operation is performed on an object of an inappropriate type.
+A solution to this is to check the documentation to ensure you're using the correct types. Convert data types if necessary.
+
+Shown below is an example of the code:
+
+import numpy as np
+np.sum('hello')  # TypeError: can only concatenate str (not "int") to str
+
+
+The sixth common error is ValueError:
+A ValueError occurs when a function receives an argument of the correct type but an inappropriate value.
+A solution to this is to check the function's documentation for valid input values. Ensure that the input data meets the requirements.
+
+Shown below is an example of the code:
+
+import matplotlib.pyplot as plt
+plt.hist([-1, 0, 1, 2], bins='auto')  # ValueError: 'auto' is not a valid value for bins
+
+
+The seventh common error is IOError:
+A IOError occurs when there is an issue with input/output operations, such as file not found or permission errors.
+A solution to this is to check the file path and permissions. Ensure that the file exists and is accessible.
+
+Shown below is an example of the code:
+
+with open('nonexistent_file.txt', 'r') as f:  # FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+    data = f.read()
+
+
+The eigth common error is PermissionError:
+A PermissionError occurs when the program does not have the necessary permissions to access a file or resource.
+A solution to this is to check the permissions of the file or resource. Ensure that your program has the required permissions.
+
+Shown below is an example of the code:
+
+with open('/etc/hosts', 'w') as f:  # PermissionError: [Errno 13] Permission denied: '/etc/hosts'
+    f.write('some data')
