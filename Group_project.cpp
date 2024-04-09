@@ -71,6 +71,12 @@ int main(){
 
 void introduction_group4(){
     //Introduction function
+    ifstream inFile;
+    inFile.open("introduction.txt");
+    while (getline(inFile, line)){//getline() is a function that returns a boolean based on its successful operation.
+        cout << line << endl;
+    }
+    inFile.close();
 }
 void Key_Concepts_group4(){
     ifstream inFile;
@@ -81,13 +87,28 @@ void Key_Concepts_group4(){
     inFile.close();
 }
 void Code_Templates_group4(){
-
+    ifstream inFile;
+    inFile.open("Code_Templates.txt");
+    while (getline(inFile, line)){//getline() is a function that returns a boolean based on its successful operation.
+        cout << line << endl;
+    }
+    inFile.close();
 }
 void Troubleshooting_Guide_group4(){
-
+    ifstream inFile;
+    inFile.open("Troubleshooting_Guide.txt");
+    while (getline(inFile, line)){//getline() is a function that returns a boolean based on its successful operation.
+        cout << line << endl;
+    }
+    inFile.close();
 }
 void Advanced_Applications_group4(){
-
+    ifstream inFile;
+    inFile.open("Advanced_Applications.txt");
+    while (getline(inFile, line)){//getline() is a function that returns a boolean based on its successful operation.
+        cout << line << endl;
+    }
+    inFile.close();
 }
 void Quiz_group4(){
 
