@@ -129,7 +129,18 @@ void Exercises_group4(){
 
 }
 void Resources_group4(){
-    
+    cout << "NumPy tutorial: https://www.w3schools.com/python/numpy/numpy_getting_started.asp \n";
+    cout << "Python Dictionaries: https://www.w3schools.com/python/python_dictionaries.asp \n";
+    cout << "Python Dictionaries: https://www.geeksforgeeks.org/python-dictionary/ \n";
+    cout << "General Libraries: https://www.geeksforgeeks.org/libraries-in-python/ \n";
+    cout << "Official NumPy website: https://numpy.org/ \n";
+    cout << "List Comprehension: https://www.w3schools.com/python/python_lists_comprehension.asp \n";
+    cout << "Generators: https://wiki.python.org/moin/Generators \n";
+    cout << "Decorators: https://peps.python.org/pep-0318/ \n";
+    cout << "Pandas: https://pypi.org/project/pandas/ \n";
+    cout << "MatPlotLib: https://www.w3schools.com/python/matplotlib_pyplot.asp \n";
+    cout << "Requests: https://pypi.org/project/requests/ \n";
+    cout << "Jinja2: https://pypi.org/project/Jinja2/ \n";
 }
 
 /*
@@ -144,4 +155,6 @@ Resources and Links:
 8. https://peps.python.org/pep-0318/
 9. https://pypi.org/project/pandas/
 10. https://www.w3schools.com/python/matplotlib_pyplot.asp
+11. https://pypi.org/project/requests/
+12. https://pypi.org/project/Jinja2/
 */
