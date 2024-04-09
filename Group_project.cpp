@@ -111,7 +111,19 @@ void Advanced_Applications_group4(){
     inFile.close();
 }
 void Quiz_group4(){
-
+    char answer;
+    bool correct;
+    //Example question
+    cout << "Example question\n";
+    cout <<"A: Example answer  " << "B: Example Answer\n" << "C: Example Correct Answer  " << "D: Example Answer" << endl;
+    cin >> answer;
+    if (answer == 'c' || answer == 'C'){
+        correct = true;
+    }
+    else{
+        correct = false;
+    }
+    //We might not need the correct variable for the real quiz, but this shows how the questions would execute.
 }
 void Exercises_group4(){
 
