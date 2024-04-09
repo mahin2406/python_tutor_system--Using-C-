@@ -139,5 +139,9 @@ Resources and Links:
 3. https://www.geeksforgeeks.org/python-dictionary/
 4. https://www.geeksforgeeks.org/libraries-in-python/
 5. https://numpy.org/
-
+6. https://www.w3schools.com/python/python_lists_comprehension.asp
+7. https://wiki.python.org/moin/Generators
+8. https://peps.python.org/pep-0318/
+9. https://pypi.org/project/pandas/
+10. https://www.w3schools.com/python/matplotlib_pyplot.asp
 */
