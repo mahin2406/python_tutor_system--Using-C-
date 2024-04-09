@@ -53,7 +53,7 @@ C. list_of_values = list(my_dict.values())
 D. 
 
 10. How do you install NumPy?
-A. 
-B. 
-C. 
-D. 
+A. #include <NumPy>
+B. pip install numpy
+C. using NumPy std;
+D. pip import numpy
