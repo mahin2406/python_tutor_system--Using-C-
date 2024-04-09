@@ -64,29 +64,7 @@ void introduction_group4(){
     
 }
 void Key_Concepts_group4(){
-    ifstream iFile;
-    //Open file
-    ifstream file("intoduction.txt");
-
-    //Read File
-    string line;
-    string paragraph;
-
-    while (getline(file, line)) {
-        
-        if (line == "") {  // Empty line indicates end of paragraph
-        break;
-        }
-        paragraph += line + "\n";  // Append line to the paragraph
-        }
-    //close file 
-    file.close();
-
-    //Write the file
-    cout << "Paragraph read from file:\n" << paragraph << std::endl;
-
-
-
+    
 }
 void Code_Templates_group4(){
 
