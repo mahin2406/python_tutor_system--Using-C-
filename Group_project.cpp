@@ -135,4 +135,9 @@ void Resources_group4(){
 /*
 Resources and Links:
 1. https://www.w3schools.com/python/numpy/numpy_getting_started.asp
+2. https://www.w3schools.com/python/python_dictionaries.asp
+3. https://www.geeksforgeeks.org/python-dictionary/
+4. https://www.geeksforgeeks.org/libraries-in-python/
+5. https://numpy.org/
+
 */
