@@ -64,7 +64,7 @@ void introduction_group4(){
     
 }
 void Key_Concepts_group4(){
-    xifstream iFile;
+    ifstream iFile;
     //Open file
     ifstream file("intoduction.txt");
 
@@ -84,7 +84,7 @@ void Key_Concepts_group4(){
 
     //Write the file
     cout << "Paragraph read from file:\n" << paragraph << std::endl;
-    
+
 }
 void Code_Templates_group4(){
 
