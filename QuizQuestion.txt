@@ -23,7 +23,7 @@ D. A standalone executable program
 
 A. By using the len() function
 B. Using the in keyword (Answer)
-C. Using the .get() method
+C. Using the .get() method (answer)
 D. By accessing the key directly and catching exceptions
 
 5.How do you add a key-value pair to a dictionary?
