@@ -22,34 +22,34 @@ B. using the in keyword
 C. using the .get() method
 D. 
 
-5.
+5.How do you add a key-value pair to a dictionary?
 A. 
+B. my_dict[key] = value
+C. 
+D. 
+
+6.How can you update the value associated with a specific key in a dictionary?
+A. 
+B. 
+C. my_dict[key] = new_value
+D. 
+
+7.ow do you retrieve a value from a dictionary using a key?
+A. 
+B. 
+C. 
+D. value = my_dict[key]
+
+8.How can you get a list of all the keys in a dictionary?
+A. list_of_keys = list(my_dict.keys())
 B. 
 C. 
 D. 
 
-6.
+9.How can you get a list of all the values in a dictionary?
 A. 
 B. 
-C. 
-D. 
-
-7.
-A. 
-B. 
-C. 
-D. 
-
-8.
-A. 
-B. 
-C. 
-D. 
-
-9.
-A. 
-B. 
-C. 
+C. list_of_values = list(my_dict.values())
 D. 
 
 10.
