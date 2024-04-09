@@ -2,24 +2,24 @@
 A. 
 B. 
 C. 
-D. 
+D. key-value pairs where each key is linked to a specific value
 
 2. What is NumPy in Python?
 A. 
-B. 
+B. a fundamental package for scientific computing in Python
 C. 
 D. 
 
 3. What is a Library in Python?
-A. 
+A. a collection of codes or modules of codes that we can use in a program for specific operations
 B. 
 C. 
 D. 
 
 4. How do you verify that the key you are trying to access in a dictionary actually exists?
 A. 
-B. 
-C. 
+B. using the in keyword
+C. using the .get() method
 D. 
 
 5.
