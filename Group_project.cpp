@@ -112,7 +112,7 @@ void Advanced_Applications_group4(){
 }
 void Quiz_group4(){
     char answer;
-    bool correct;
+    /*bool correct;
     //Example question
     cout << "Example question\n";
     cout <<"A: Example answer  " << "B: Example Answer\n" << "C: Example Correct Answer  " << "D: Example Answer" << endl;
@@ -124,6 +124,43 @@ void Quiz_group4(){
         correct = false;
     }
     //We might not need the correct variable for the real quiz, but this shows how the questions would execute.
+    */
+    for (int i = 0; i < 3; i++){
+        int r= 0; //Make this a random number, preferably one that isn't a repeat.
+        switch r {
+            case 1:
+                //question 1
+                break;
+            case 2:
+                //question 2
+                break;
+            case 3: 
+                //question 3
+                break;
+            case 4:
+                //question 4
+                break;
+            case 5:
+                //question 5
+                break;
+            case 6:
+                //question 6
+                break;
+            case 7:
+                //question 7
+                break;
+            case 8:
+                //question 8
+                break;
+            case 9:
+                //question 9
+                break;
+            case 10:
+                //question 10
+                break;
+            default:
+        }
+    }
 }
 void Exercises_group4(){
 
