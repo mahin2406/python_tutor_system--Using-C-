@@ -73,7 +73,12 @@ void introduction_group4(){
     //Introduction function
 }
 void Key_Concepts_group4(){
-    
+    ifstream inFile;
+    inFile.open("key_concepts.txt");
+    while (getline(inFile, line)){//getline() is a function that returns a boolean based on its successful operation.
+        cout << line << endl;
+    }
+    inFile.close();
 }
 void Code_Templates_group4(){
 
