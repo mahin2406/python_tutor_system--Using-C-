@@ -1,4 +1,4 @@
-Introduction to Dictionaries, NumPy, Libraries in Python!
+Introduction to Dictionaries, NumPy, and Libraries in Python!
 
 Dictionary:
  Grasping the concept of dictionaries enables you to more precisely represent various real-world entities. 
