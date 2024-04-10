@@ -1,7 +1,17 @@
 Corey:
 1.Learn to create a dictionary and access its elements.
+(Step 1.) Ceate a dictionary named student with the following key-value pairs: {"name": "John", "age": 25, "course": "Python"} 
+(Step 2.) Print the value associated with the key "name".
+(Step 3.) Update the "course" key to "Advanced Python" and print the updated dictionary.
 2. Practice iterating over keys, values, and key-value pairs in a dictionary.
+(Step 1.)Using the student dictionary from Exercise 1, iterate over its keys and print them.
+(Step 2.) Iterate over its values and print them.
+(Step 3.)Iterate over the key-value pairs and print them in the format "key: value".
 3.Learn to work with nested dictionaries.
+(Step 1.)Create a nested dictionary classroom with two student sub-dictionaries:
+(Step 2.) Access and print the name of student2.
+(Step 3.) Add a new key-value pair "grade": "A" to student1 and print the updated classroom dictionary.
+
 Nick
 4.
 5. 
