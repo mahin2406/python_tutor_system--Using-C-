@@ -1,5 +1,5 @@
 Corey:
-1.Learn to create a dictionary and access its elements.
+1. Learn to create a dictionary and access its elements.
 (Step 1.) Ceate a dictionary named student with the following key-value pairs: {"name": "John", "age": 25, "course": "Python"} 
 (Step 2.) Print the value associated with the key "name".
 (Step 3.) Update the "course" key to "Advanced Python" and print the updated dictionary.
@@ -7,7 +7,7 @@ Corey:
 (Step 1.)Using the student dictionary from Exercise 1, iterate over its keys and print them.
 (Step 2.) Iterate over its values and print them.
 (Step 3.)Iterate over the key-value pairs and print them in the format "key: value".
-3.Learn to work with nested dictionaries.
+3. Learn to work with nested dictionaries.
 (Step 1.)Create a nested dictionary classroom with two student sub-dictionaries:
 (Step 2.) Access and print the name of student2.
 (Step 3.) Add a new key-value pair "grade": "A" to student1 and print the updated classroom dictionary.
@@ -17,9 +17,16 @@ Nick
 5. 
 6.
 Marc
-7.
-8.
-9.
+7. Install and Import NumPy.
+(Step 1.) To install NumPy: pip install numpy
+(Step 2.) To import NumPy: import numpy as np
+8. Create a 1D array named Gary that includes the numbers: 1, 8, 7, 6, 4.
+(Step 1.) Import numpy in your code: import numpy as np
+(Step 2.) Create the array: Gary = np.array([1, 8, 7, 6, 4])
+9. Print a random integer using the Random Library.
+(Step 1.) include the random library: import random
+(Step 2.) Create a random integer: random_int = random.randint(1, 100)
+(Step 3.) Print a random number: print("Random Integer:", random_int)
 Mahin
 10.
 11.
