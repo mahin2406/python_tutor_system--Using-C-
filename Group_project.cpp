@@ -94,7 +94,7 @@ void Key_Concepts_group4(){
     } 
 }
 void Code_Templates_group4(){
-    ifstream inFile("key_concepts.txt");
+    ifstream inFile("Code_Templates.txt");
     if (inFile) {
         string line;
         while (getline(inFile, line)) {
@@ -106,7 +106,7 @@ void Code_Templates_group4(){
     }
 }
 void Troubleshooting_Guide_group4(){
-    ifstream inFile("key_concepts.txt");
+    ifstream inFile("Troubleshooting_Guide.txt");
     if (inFile) {
         string line;
         while (getline(inFile, line)) {
@@ -119,7 +119,7 @@ void Troubleshooting_Guide_group4(){
 }
 void Advanced_Applications_group4(){
     
-    ifstream inFile("key_concepts.txt");
+    ifstream inFile("Advanced_Applications.txt");
     if (inFile) {
         string line;
         while (getline(inFile, line)) {
@@ -296,7 +296,16 @@ void Quiz_group4(){
     cout << "You answered " << correct << " out of 5 questions correctly." << endl;
 }
 void Exercises_group4(){
-
+    ifstream inFile("Exercises_group.txt");
+    if (inFile) {
+        string line;
+        while (getline(inFile, line)) {
+            cout << line << endl;
+        }
+        inFile.close();
+    } else {
+        cout << "Unable to open key concepts file.\n";
+    }
 }
 void Resources_group4(){
     cout << "NumPy tutorial: https://www.w3schools.com/python/numpy/numpy_getting_started.asp \n";
