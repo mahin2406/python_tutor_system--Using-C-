@@ -169,7 +169,7 @@ void Quiz_group4(){
     //We might not need the correct variable for the real quiz, but this shows how the questions would execute.
     */
     cout << "How many questions do you want to answer?";
-    cin >> answer;
+    cin >> questions;
     for (int i = 0; i < questions; i++){
         randomcheck (r)
         switch (r) {
@@ -302,6 +302,136 @@ void Quiz_group4(){
                 }
                 else{
                     cout << "The correct answer is: B" << endl;
+                }
+                break;
+            case 11
+                //question 11
+                cout << "How do you remove all items from a dictionary?\n";
+                cout <<"A: my_dict.clear()>   " << "B: my_dict.delete_all()\n" << "C: my_dict.remove()  " << "D: clear(my_dict)" << endl;
+                cin >> answer;
+                if (answer == 'a' || answer == 'A'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: A" << endl;
+                }
+                break;
+            case 12:
+                //question 12
+                cout << "How can you create a copy of a dictionary?\n";
+                cout <<"A: my_dict.copy()   " << "B: copy(my_dict)\n" << "C: my_dict.clone()  " << "D: my_dict.duplicate()" << endl;
+                cin >> answer;
+                if (answer == 'a' || answer == 'A'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: A" << endl;
+                }
+                break;
+            case 13:
+                //question 13
+                cout << "What method is used to return the value of the specified key in a dictionary?\n";
+                cout <<"A: my_dict.get(key)   " << "B: my_dict.value(key)\n" << "C: my_dict[key]  " << "D: my_dict.lookup(key)" << endl;
+                cin >> answer;
+                if (answer == 'a' || answer == 'A'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: A" << endl;
+                }
+                break;
+            case 14:
+                //question 14
+                cout << "How do you add the key-value pairs from one dictionary into another?\n";
+                cout <<"A: my_dict1.update(my_dict2)   " << "B: my_dict1.add(my_dict2)\n" << "C: my_dict1.concat(my_dict2)  " << "D: my_dict1.append(my_dict2)" << endl;
+                cin >> answer;
+                if (answer == 'a' || answer == 'A'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: A" << endl;
+                }
+                break;
+            case 15:
+                //question 15
+                cout << "What will be the result of accessing a non-existent key in a dictionary without using any method?\n";
+                cout <<"A: Returns None   " << "B: Creates a new key\n" << "C: An empty string is returned  " << "D: A KeyError is raised" << endl;
+                cin >> answer;
+                if (answer == 'd' || answer == 'D'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: D" << endl;
+                }
+                break;
+            case 16:
+                //question 16
+                cout << "Which library in Python is used for data manipulation?\n";
+                cout <<"A: Pygame   " << "B: Requests\n" << "C: Pandas  " << "D: Jinja2" << endl;
+                cin >> answer;
+                if (answer == 'c' || answer == 'C'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: C" << endl;
+                }
+                break;
+            case 17:
+                //question 17
+                cout << "What is the primary use of the NumPy library?\n";
+                cout <<"A: Web development   " << "B: Game development\n" << "C: Scientific computing  " << "D: Network programming" << endl;
+                cin >> answer;
+                if (answer == 'c' || answer == 'C'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: C" << endl;
+                }
+                break;
+            case 18:
+                //question 18
+                cout << "Which function is used to create a new NumPy array?\n";
+                cout <<"A: np.array()   " << "B: np.new_array()\n" << "C: np.create_array()  " << "D: np.ndarray()" << endl;
+                cin >> answer;
+                if (answer == 'a' || answer == 'A'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: A" << endl;
+                }
+                break;
+            case 19:
+                //question 10
+                cout << "Which library in Python is used for API interaction?\n";
+                cout <<"A: Pygame   " << "B: Requests\n" << "C: Pandas  " << "D: Jinja2" << endl;
+                cin >> answer;
+                if (answer == 'b' || answer == 'B'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: B" << endl;
+                }
+                break;
+            case 20:
+                //question 10
+                cout << "Which library in Python is used for templating?\n";
+                cout <<"A: Pygame   " << "B: Requests\n" << "C: Pandas  " << "D: Jinja2" << endl;
+                cin >> answer;
+                if (answer == 'd' || answer == 'D'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: D" << endl;
                 }
                 break;
             default:
