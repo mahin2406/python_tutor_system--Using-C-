@@ -216,23 +216,75 @@ void Quiz_group4(){
                 break;
             case 6:
                 //question 6
+                cout << "How can you update the value associated with a specific key in a dictionary?\n";
+                cout <<"A: my_dict.update(key, new_value)   " << "B: my_dict.add(key, new_value)\n" << "C: my_dict[key] = new_value  " << "D: my_dict.modify(key, new_value)" << endl;
+                cin >> answer;
+                if (answer == 'c' || answer == 'C'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: C" << endl;
+                }
                 break;
             case 7:
                 //question 7
+                cout << "How do you retrieve a value from a dictionary using a key?\n";
+                cout <<"A: my_dict.get_value(key)   " << "B: my_dict[value]\n" << "C: my_dict.retrieve(key)  " << "D: value = my_dict[key]" << endl;
+                cin >> answer;
+                if (answer == 'd' || answer == 'D'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: D" << endl;
+                }
                 break;
             case 8:
                 //question 8
+                cout << "How can you get a list of all the keys in a dictionary?\n";
+                cout <<"A: list_of_keys = list(my_dict.keys())   " << "B: list_of_keys = my_dict.get_keys()\n" << "C: list_of_keys = my_dict.keys_list()  " << "D: list_of_keys = my_dict.all_keys()" << endl;
+                cin >> answer;
+                if (answer == 'a' || answer == 'A'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: A" << endl;
+                }
                 break;
             case 9:
                 //question 9
+                cout << "How can you get a list of all the values in a dictionary?\n";
+                cout <<"A: list_of_values = my_dict.get_values()   " << "B: list_of_values = my_dict.values_list()\n" << "C: list_of_values = list(my_dict.values())  " << "D: list_of_values = my_dict.all_values()" << endl;
+                cin >> answer;
+                if (answer == 'c' || answer == 'C'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: C" << endl;
+                }
                 break;
             case 10:
                 //question 10
+                cout << "How do you install NumPy?\n";
+                cout <<"A: #include <numpy>   " << "B: pip install numpy\n" << "C: using numpy std;  " << "D: pip import numpy" << endl;
+                cin >> answer;
+                if (answer == 'b' || answer == 'B'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: B" << endl;
+                }
                 break;
             default:
                 cout << "This is not a question." << endl;
         }
+        //record what 'r' is here for the randomizer
     }
+    cout << "You answered " << correct << " out of 5 questions correctly." << endl;
 }
 void Exercises_group4(){
 
