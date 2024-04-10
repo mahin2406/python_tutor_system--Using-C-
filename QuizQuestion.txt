@@ -68,3 +68,33 @@ A. #include <numpy>
 B. pip install numpy (Answer)
 C. using numpy std;
 D. pip import numpy
+
+11. How do you remove all items from a dictionary?
+A. my_dict.clear() (Answer)
+B. my_dict.delete_all()
+C. my_dict.remove()
+D. clear(my_dict)
+
+12. How can you create a copy of a dictionary?
+A. my_dict.copy() (Answer)
+B. copy(my_dict)
+C. my_dict.clone()
+D. my_dict.duplicate()
+
+13. What method is used to return the value of the specified key in a dictionary?
+A. my_dict.get(key) (Answer)
+B. my_dict.value(key)
+C. my_dict[key]
+D. my_dict.lookup(key)
+
+14. How do you add the key-value pairs from one dictionary into another?
+A. my_dict1.update(my_dict2) (Answer)
+B. my_dict1.add(my_dict2)
+C. my_dict1.concat(my_dict2)
+D. my_dict1.append(my_dict2)
+
+15. What will be the result of accessing a non-existent key in a dictionary without using any method?
+A. Returns None
+B. Creates a new key
+C. An empty string is returned
+D. A KeyError is raised (Answer)
