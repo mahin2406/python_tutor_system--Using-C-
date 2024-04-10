@@ -91,7 +91,7 @@ void Key_Concepts_group4(){
         inFile.close();
     } else {
         cout << "Unable to open key concepts file.\n";
-    }
+    } 
 }
 void Code_Templates_group4(){
     ifstream inFile;
