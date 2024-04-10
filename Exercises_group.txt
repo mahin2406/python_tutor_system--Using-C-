@@ -1,0 +1,16 @@
+Corey:
+1.Learn to create a dictionary and access its elements.
+2. Practice iterating over keys, values, and key-value pairs in a dictionary.
+3.Learn to work with nested dictionaries.
+Nick
+4.
+5. 
+6.
+Marc
+7.
+8.
+9.
+Mahin
+10.
+11.
+12.

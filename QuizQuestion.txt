@@ -1,0 +1,70 @@
+1.What is a Dictionary in Python?
+
+A. A list of values indexed by numbers
+B. A mutable sequence type
+C. A data type that stores data as a single value
+D. A collection of key-value pairs where each key is linked to a specific value (Answer)
+
+2.What is NumPy in Python?
+
+A. A web development framework
+B. A fundamental package for scientific computing in Python (Answer)
+C. A text processing library
+D. A database management tool
+
+3.What is a Library in Python?
+
+A. A collection of codes or modules of codes that we can use in a program for specific operations (Answer)
+B. A programming language
+C. A collection of Python scripts
+D. A standalone executable program
+
+4.How do you verify that the key you are trying to access in a dictionary actually exists?
+
+A. By using the len() function
+B. Using the in keyword (Answer)
+C. Using the .get() method (answer)
+D. By accessing the key directly and catching exceptions
+
+5.How do you add a key-value pair to a dictionary?
+
+A. my_dict.append(key: value)
+B. my_dict[key] = value (Answer)
+C. my_dict.add(key, value)
+D. my_dict.insert(key, value)
+
+6.How can you update the value associated with a specific key in a dictionary?
+
+A. my_dict.update(key, new_value)
+B. my_dict.add(key, new_value)
+C. my_dict[key] = new_value (Answer)
+D. my_dict.modify(key, new_value)
+
+7.How do you retrieve a value from a dictionary using a key?
+
+A. my_dict.get_value(key)
+B. my_dict[value]
+C. my_dict.retrieve(key)
+D. value = my_dict[key] (Answer)
+
+8.How can you get a list of all the keys in a dictionary?
+
+A. list_of_keys = list(my_dict.keys()) (Answer)
+B. list_of_keys = my_dict.get_keys()
+C. list_of_keys = my_dict.keys_list()
+D. list_of_keys = my_dict.all_keys()
+
+9.How can you get a list of all the values in a dictionary?
+
+A. list_of_values = my_dict.get_values()
+B. list_of_values = my_dict.values_list()
+C. list_of_values = list(my_dict.values()) (Answer)
+D. list_of_values = my_dict.all_values()
+
+
+10. How do you install NumPy?
+
+A. #include <numpy>
+B. pip install numpy (Answer)
+C. using numpy std;
+D. pip import numpy
