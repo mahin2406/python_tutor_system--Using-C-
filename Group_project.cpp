@@ -94,28 +94,40 @@ void Key_Concepts_group4(){
     } 
 }
 void Code_Templates_group4(){
-    ifstream inFile;
-    inFile.open("Code_Templates.txt");
-    while (getline(inFile, line)){//getline() is a function that returns a boolean based on its successful operation.
-        cout << line << endl;
+    ifstream inFile("key_concepts.txt");
+    if (inFile) {
+        string line;
+        while (getline(inFile, line)) {
+            cout << line << endl;
+        }
+        inFile.close();
+    } else {
+        cout << "Unable to open key concepts file.\n";
     }
-    inFile.close();
 }
 void Troubleshooting_Guide_group4(){
-    ifstream inFile;
-    inFile.open("Troubleshooting_Guide.txt");
-    while (getline(inFile, line)){//getline() is a function that returns a boolean based on its successful operation.
-        cout << line << endl;
+    ifstream inFile("key_concepts.txt");
+    if (inFile) {
+        string line;
+        while (getline(inFile, line)) {
+            cout << line << endl;
+        }
+        inFile.close();
+    } else {
+        cout << "Unable to open key concepts file.\n";
     }
-    inFile.close();
 }
 void Advanced_Applications_group4(){
-    ifstream inFile;
-    inFile.open("Advanced_Applications.txt");
-    while (getline(inFile, line)){//getline() is a function that returns a boolean based on its successful operation.
-        cout << line << endl;
+    ifstream inFile("key_concepts.txt");
+    if (inFile) {
+        string line;
+        while (getline(inFile, line)) {
+            cout << line << endl;
+        }
+        inFile.close();
+    } else {
+        cout << "Unable to open key concepts file.\n";
     }
-    inFile.close();
 }
 void Quiz_group4(){
     char answer;
