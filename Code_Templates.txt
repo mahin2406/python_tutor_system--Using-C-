@@ -1,4 +1,4 @@
-Creating and Updating a Dictionary
+CREATING AND UDATING A DICTIONARY
 
 # Creating a dictionary
 person = {
@@ -19,7 +19,7 @@ person["profession"] = "Software Engineer"
 # Printing the updated dictionary
 print("Updated dictionary:", person)
 
-Accessing and Handling Missing Keys
+ACCESSING AND HANDLING MISSING KEYS
 
 # Accessing an existing key
 name = person.get("name", "Name not found")
@@ -35,7 +35,7 @@ if "city" in person:
 else:
     print("City key not found.")
 
-Iterating Over a Dictionary
+ITERATING OVER A DICTIONARY
 
 # Iterating over keys
 print("Keys:")
