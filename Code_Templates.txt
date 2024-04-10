@@ -1,1 +1,54 @@
+Creating and Updating a Dictionary
+
+# Creating a dictionary
+person = {
+    "name": "John Doe",
+    "age": 30,
+    "city": "New York"
+}
+
+# Printing the dictionary
+print("Original dictionary:", person)
+
+# Updating a value
+person["age"] = 31
+
+# Adding a new key-value pair
+person["profession"] = "Software Engineer"
+
+# Printing the updated dictionary
+print("Updated dictionary:", person)
+
+Accessing and Handling Missing Keys
+
+# Accessing an existing key
+name = person.get("name", "Name not found")
+print("Name:", name)
+
+# Accessing a non-existent key with a default value
+salary = person.get("salary", "Salary not found")
+print("Salary:", salary)
+
+# Using the in keyword to check for key existence
+if "city" in person:
+    print("City:", person["city"])
+else:
+    print("City key not found.")
+
+Iterating Over a Dictionary
+
+# Iterating over keys
+print("Keys:")
+for key in person.keys():
+    print(key)
+
+# Iterating over values
+print("\nValues:")
+for value in person.values():
+    print(value)
+
+# Iterating over key-value pairs
+print("\nKey-Value Pairs:")
+for key, value in person.items():
+    print(f"{key}: {value}")
 
