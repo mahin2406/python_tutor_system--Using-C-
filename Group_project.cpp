@@ -24,8 +24,17 @@ void Resources_group4();
 int main(){
     int input;
     do{
-        cout << "Please enter a number to access a section. \n 1: Introduction \n 2:Key Concepts \n 3: Code Templates \n 4:Troubleshooting Guide\n 5:Advanced Applications \n 6: Quiz \n 7: Hands-on Exercises \n 8: Resources and Links\n";
-        cout << "Press 9 to exit.";
+        cout << "Please enter a number to access a section.\n"
+             << "1: Introduction\n"
+             << "2: Key Concepts\n"
+             << "3: Code Templates\n"
+             << "4: Troubleshooting Guide\n"
+             << "5: Advanced Applications\n"
+             << "6: Quiz\n"
+             << "7: Hands-on Exercises\n"
+             << "8: Resources and Links\n"
+             << "Press 9 to exit.\n";     
+
         cin >> input;
         switch(input){
             case 1:
@@ -61,10 +70,28 @@ int main(){
     return 0;
 }
 void introduction_group4(){
-    //Introduction function
+    ifstream inFile("introduction.txt");
+    if (inFile) {
+        string line;
+        while (getline(inFile, line)) {
+            cout << line << endl;
+        }
+        inFile.close();
+    } else {
+        cout << "Unable to open introduction file.\n";
+    }
 }
 void Key_Concepts_group4(){
-    
+    ifstream inFile("key_concepts.txt");
+    if (inFile) {
+        string line;
+        while (getline(inFile, line)) {
+            cout << line << endl;
+        }
+        inFile.close();
+    } else {
+        cout << "Unable to open key concepts file.\n";
+    }
 }
 void Code_Templates_group4(){
     ifstream inFile;
@@ -107,7 +134,7 @@ void Quiz_group4(){
     */
     for (int i = 0; i < 3; i++){
         int r= 0; //Make this a random number, preferably one that isn't a repeat.
-        switch r {
+        switch (r) {
             case 1:
                 //question 1
                 break;
