@@ -80,6 +80,7 @@ void introduction_group4(){
             cout << line <<endl;
         };
         cout << "\n \n \n";
+
         inFile.close(); 
 }
 void Key_Concepts_group4(){
@@ -89,6 +90,7 @@ void Key_Concepts_group4(){
             cout << line << endl;
         }
         cout << "\n \n \n";
+
         inFile.close(); 
 }
 void Code_Templates_group4(){
@@ -98,6 +100,7 @@ void Code_Templates_group4(){
             cout << line << endl;
         }
         cout << "\n \n";
+
         inFile.close(); 
 }
 void Troubleshooting_Guide_group4(){
@@ -117,6 +120,7 @@ void Advanced_Applications_group4(){
             cout << line << endl;
         }
         cout << "\n \n";
+        
         inFile.close(); 
 }
 void Quiz_group4(){
