@@ -92,6 +92,7 @@ void Advanced_Applications_group4(){
 }
 void Quiz_group4(){
     char answer;
+    int correct = 0;
     /*bool correct;
     //Example question
     cout << "Example question\n";
@@ -105,23 +106,74 @@ void Quiz_group4(){
     }
     //We might not need the correct variable for the real quiz, but this shows how the questions would execute.
     */
-    for (int i = 0; i < 3; i++){
+    for (int i = 0; i < 5; i++){
         int r= 0; //Make this a random number, preferably one that isn't a repeat.
         switch r {
             case 1:
                 //question 1
+                cout << "What is a Dictionary in Python?\n";
+                cout <<"A: A list of values indexed by numbers  " << "B: A mutable sequence type\n" << "C: A data type that stores data as a single value  " << "D: A collection of key-value pairs where each key is linked to a specific value" << endl;
+                cin >> answer;
+                if (answer == 'd' || answer == 'D'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: D" << endl;
+                }
                 break;
             case 2:
                 //question 2
+                cout << "What is NumPy in Python?\n";
+                cout <<"A: A web development framework  " << "B: A fundamental package for scientific computing in Python\n" << "C: A text processing library  " << "D: A database management tool" << endl;
+                cin >> answer;
+                if (answer == 'b' || answer == 'B'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: B" << endl;
+                }
                 break;
             case 3: 
                 //question 3
+                cout << "What is a Library in Python?\n";
+                cout <<"A: A collection of codes that can be used for specific operations   " << "B: A programming language\n" << "C: A collection of Python scripts  " << "D: A standalone executable program" << endl;
+                cin >> answer;
+                if (answer == 'a' || answer == 'A'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: A" << endl;
+                }
                 break;
             case 4:
                 //question 4
+                cout << "How do you verify that the key you are trying to access in a dictionary actually exists?\n";
+                cout <<"A: By using the len() function   " << "B: Using the in keyword\n" << "C: Using the .get() method  " << "D: By accessing the key directly and catching exceptions" << endl;
+                cin >> answer;
+                if (answer == 'b' || answer == 'B' || answer == 'c' || answer == 'C'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                    cout << "Both B and C are correct answers to this question.\n";
+                }
+                else{
+                    cout << "The correct answer is: B or C" << endl;
+                }
                 break;
             case 5:
                 //question 5
+                cout << "How do you add a key-value pair to a dictionary?\n";
+                cout <<"A: my_dict.append(key: value)   " << "B: my_dict[key] = value\n" << "C: my_dict.add(key, value)  " << "D: my_dict.insert(key, value)" << endl;
+                cin >> answer;
+                if (answer == 'b' || answer == 'B'){
+                    correct +=1; 
+                    cout << "That is correct!" << endl;
+                }
+                else{
+                    cout << "The correct answer is: B" << endl;
+                }
                 break;
             case 6:
                 //question 6
@@ -139,6 +191,7 @@ void Quiz_group4(){
                 //question 10
                 break;
             default:
+                cout << "This is not a question." << endl;
         }
     }
 }
