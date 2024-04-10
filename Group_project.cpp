@@ -440,12 +440,12 @@ void Quiz_group4(){
                 }
                 else {
                     cout << "You have run out of questions. There are only 20 questions." << endl;
-                    i = quesitons;
+                    i = questions;
                 }
         }
         //record what 'r' is here for the randomizer
     }
-    cout << "You answered " << correct << " out of 5 questions correctly." << endl;
+    cout << "You answered " << correct << " questions correctly." << endl;
 }
 void Exercises_group4(){
     ifstream inFile("Exercises_group.txt");
