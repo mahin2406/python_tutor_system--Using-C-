@@ -20,6 +20,33 @@ void Advanced_Applications_group4();
 void Quiz_group4();
 void Exercises_group4();
 void Resources_group4();
+struct quiz_Node{
+    int data;
+    quiz_Node* next;
+}
+void insert (int val, quiz_Node*& head){
+    quiz_Node* newNode = new quiz_Node; //newNode points to the newly created Node.
+    newNode->data = val; //This assigns val to the data of newNode's Node.
+    newNode->next = head;
+
+    //Update head to point at newNode
+    head = newNode;
+}
+void randomcheck (int& r, quiz_Node* head){
+    bool is_Repeat = true;
+    //still need to randomize r.
+    while (is_Repeat){ //repeats while is_repeat is true
+        quiz_Node* temp = head;
+        is_Repeat = false;
+    while (temp != nullptr){ //While there is more data in the list
+        if (temp->data = r){ //Sets the bool to true if r = a listed number. 
+            is_Repeat =true;
+        }
+        temp = temp->next; //Updates temp to temp's next pointer.
+    }
+    }
+    insert (r, head); //Once r isn't in any value, add r to the list and continue the program.
+}
 
 int main(){
     int input;
@@ -118,6 +145,8 @@ void Advanced_Applications_group4(){
 void Quiz_group4(){
     char answer;
     int correct = 0, questions;
+    quiz_Node* head = nullptr;
+    int r= 0; //Make this a random number, preferably one that isn't a repeat.
     /*bool correct;
     //Example question
     cout << "Example question\n";
@@ -134,7 +163,7 @@ void Quiz_group4(){
     cout << "How many questions do you want to answer?";
     cin >> answer;
     for (int i = 0; i < questions; i++){
-        int r= 0; //Make this a random number, preferably one that isn't a repeat.
+        randomcheck (r)
         switch (r) {
             case 1:
                 //question 1
