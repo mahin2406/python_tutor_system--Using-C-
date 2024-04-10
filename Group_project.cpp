@@ -118,6 +118,7 @@ void Troubleshooting_Guide_group4(){
     }
 }
 void Advanced_Applications_group4(){
+    
     ifstream inFile("key_concepts.txt");
     if (inFile) {
         string line;
