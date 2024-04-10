@@ -71,64 +71,49 @@ int main(){
 }
 void introduction_group4(){
     ifstream inFile("introduction.txt");
-    if (inFile) {
         string line;
         while (getline(inFile, line)) {
-            cout << line << endl;
-        }
-        inFile.close();
-    } else {
-        cout << "Unable to open introduction file.\n";
-    }
+            cout << line <<endl;
+        };
+        cout << "\n \n";
+        inFile.close(); 
 }
 void Key_Concepts_group4(){
     ifstream inFile("key_concepts.txt");
-    if (inFile) {
         string line;
         while (getline(inFile, line)) {
             cout << line << endl;
         }
-        inFile.close();
-    } else {
-        cout << "Unable to open key concepts file.\n";
-    } 
+        cout << "\n \n";
+        inFile.close(); 
 }
 void Code_Templates_group4(){
     ifstream inFile("Code_Templates.txt");
-    if (inFile) {
-        string line;
+    string line;
         while (getline(inFile, line)) {
             cout << line << endl;
         }
-        inFile.close();
-    } else {
-        cout << "Unable to open key concepts file.\n";
-    }
+        cout << "\n \n";
+        inFile.close(); 
 }
 void Troubleshooting_Guide_group4(){
     ifstream inFile("Troubleshooting_Guide.txt");
-    if (inFile) {
-        string line;
+    string line;
         while (getline(inFile, line)) {
             cout << line << endl;
         }
-        inFile.close();
-    } else {
-        cout << "Unable to open key concepts file.\n";
-    }
+        cout << "\n \n";
+        inFile.close(); 
 }
 void Advanced_Applications_group4(){
     
     ifstream inFile("Advanced_Applications.txt");
-    if (inFile) {
-        string line;
+    string line;
         while (getline(inFile, line)) {
             cout << line << endl;
         }
-        inFile.close();
-    } else {
-        cout << "Unable to open key concepts file.\n";
-    }
+        cout << "\n \n";
+        inFile.close(); 
 }
 void Quiz_group4(){
     char answer;
@@ -297,15 +282,12 @@ void Quiz_group4(){
 }
 void Exercises_group4(){
     ifstream inFile("Exercises_group.txt");
-    if (inFile) {
-        string line;
+    string line;
         while (getline(inFile, line)) {
             cout << line << endl;
         }
-        inFile.close();
-    } else {
-        cout << "Unable to open key concepts file.\n";
-    }
+        cout << "\n \n";
+        inFile.close(); 
 }
 void Resources_group4(){
     cout << "NumPy tutorial: https://www.w3schools.com/python/numpy/numpy_getting_started.asp \n";
