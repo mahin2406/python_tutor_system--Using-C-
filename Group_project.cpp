@@ -12,6 +12,7 @@ Due Date: April 14, 2024.
 #include <fstream>
 
 using namespace std;
+
 void introduction_group4();
 void Key_Concepts_group4();
 void Code_Templates_group4();
@@ -63,6 +64,9 @@ int main(){
              << "Press 9 to exit.\n";     
 
         cin >> input;
+
+        cout << "\n \n";
+
         switch(input){
             case 1:
                 introduction_group4();
@@ -102,7 +106,8 @@ void introduction_group4(){
         while (getline(inFile, line)) {
             cout << line <<endl;
         };
-        cout << "\n \n";
+        cout << "\n \n \n";
+
         inFile.close(); 
 }
 void Key_Concepts_group4(){
@@ -111,7 +116,8 @@ void Key_Concepts_group4(){
         while (getline(inFile, line)) {
             cout << line << endl;
         }
-        cout << "\n \n";
+        cout << "\n \n \n";
+
         inFile.close(); 
 }
 void Code_Templates_group4(){
@@ -121,6 +127,7 @@ void Code_Templates_group4(){
             cout << line << endl;
         }
         cout << "\n \n";
+
         inFile.close(); 
 }
 void Troubleshooting_Guide_group4(){
@@ -140,6 +147,7 @@ void Advanced_Applications_group4(){
             cout << line << endl;
         }
         cout << "\n \n";
+        
         inFile.close(); 
 }
 void Quiz_group4(){
