@@ -132,7 +132,7 @@ void Advanced_Applications_group4(){
 }
 void Quiz_group4(){
     char answer;
-    int correct = 0;
+    int correct = 0, questions;
     /*bool correct;
     //Example question
     cout << "Example question\n";
@@ -146,7 +146,9 @@ void Quiz_group4(){
     }
     //We might not need the correct variable for the real quiz, but this shows how the questions would execute.
     */
-    for (int i = 0; i < 5; i++){
+    cout << "How many questions do you want to answer?";
+    cin >> answer;
+    for (int i = 0; i < questions; i++){
         int r= 0; //Make this a random number, preferably one that isn't a repeat.
         switch (r) {
             case 1:
@@ -281,7 +283,13 @@ void Quiz_group4(){
                 }
                 break;
             default:
-                cout << "This is not a question." << endl;
+                if (questions <=20){0
+                    cout << "This is not a question." << endl;
+                }
+                else {
+                    cout << "You have run out of questions. There are only 20 questions." << endl;
+                    i = quesitons;
+                }
         }
         //record what 'r' is here for the randomizer
     }
