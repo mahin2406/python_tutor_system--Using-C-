@@ -436,7 +436,7 @@ void Quiz_group4(){
                 }
                 break;
             default:
-                if (questions <=20){0
+                if (questions <=20){
                     cout << "This is not a question." << endl;
                 }
                 else {
@@ -444,7 +444,6 @@ void Quiz_group4(){
                     i = questions;
                 }
         }
-        //record what 'r' is here for the randomizer
     }
     cout << "You answered " << correct << " questions correctly." << endl;
 }
