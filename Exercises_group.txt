@@ -8,14 +8,23 @@ Corey:
 (Step 2.) Iterate over its values and print them.
 (Step 3.)Iterate over the key-value pairs and print them in the format "key: value".
 3. Learn to work with nested dictionaries.
-(Step 1.)Create a nested dictionary classroom with two student sub-dictionaries:
+(Step 1.)Create a nested dictionary classroom with two student sub-dictionaries from Exercise 1(student1 and student2).
 (Step 2.) Access and print the name of student2.
 (Step 3.) Add a new key-value pair "grade": "A" to student1 and print the updated classroom dictionary.
 
 Nick
-4.
-5. 
-6.
+4. Check for keys in a nested dictionary
+(Step 1.) Using the classroom dictionary from Exercise 3, assign the student2 key to a string object.
+(Step 2.) Print the "grade" key from the student 2 dictionary, using a default value if it does not exist.
+5. Create a defaultdict and print the keys.
+(Step 1.) Create a defaultdict using the defaultdict() function, and insert the default value(within the parenthesis) as F.
+(Step 2.) Insert key-value pairs similar to student2 fron Exercise 3. 
+(Step 3.) Without iterating over the values, print the values of "name", "age", "course", and "grade"
+6. Dictionary Comprehension example
+(Step 1.) Create two lists, one containing the keys for the dictionary from Exercise 1, and one list containing the values.
+(Step 2.) Create a dictionary named student3 with the syntax dict(zip(keys, values)).
+(Step 3.) Compare the values between student and student3.
+
 Marc
 7. Install and Import NumPy.
 (Step 1.) To install NumPy: pip install numpy
