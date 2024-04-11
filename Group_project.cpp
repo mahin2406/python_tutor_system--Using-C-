@@ -36,9 +36,10 @@ void insert (int val, quiz_Node*& head){
 void randomcheck (int& r, quiz_Node* head){
     bool is_Repeat = true;
     //still need to randomize r.
-    while (is_Repeat){ //repeats while is_repeat is true
+    while (is_Repeat){ //loops while is_repeat is true
         quiz_Node* temp = head;
         is_Repeat = false;
+        r = rand() % 19 + 1; //generates a random number between 0 + 1 and 19 + 1.
     while (temp != nullptr){ //While there is more data in the list
         if (temp->data = r){ //Sets the bool to true if r = a listed number. 
             is_Repeat =true;
@@ -154,7 +155,7 @@ void Quiz_group4(){
     char answer;
     int correct = 0, questions;
     quiz_Node* head = nullptr;
-    int r= 0; //Make this a random number, preferably one that isn't a repeat.
+    int r= 0; 
     /*bool correct;
     //Example question
     cout << "Example question\n";
