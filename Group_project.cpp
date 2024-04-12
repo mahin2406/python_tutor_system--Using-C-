@@ -35,7 +35,7 @@ void insert (int val, quiz_Node*& head){
 }
 void randomcheck (int& r, quiz_Node* head){
     bool is_Repeat = true;
-    //still need to randomize r.
+    r = rand() % 19 + 1; //Should randomize the number between 0 + 1 and 19 + 1.
     while (is_Repeat){ //loops while is_repeat is true
         quiz_Node* temp = head;
         is_Repeat = false;
