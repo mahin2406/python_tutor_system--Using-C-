@@ -36,6 +36,7 @@ Marc
 (Step 1.) include the random library: import random
 (Step 2.) Create a random integer: random_int = random.randint(1, 100)
 (Step 3.) Print a random number: print("Random Integer:", random_int)
+
 Mahin
 10.
 11.
