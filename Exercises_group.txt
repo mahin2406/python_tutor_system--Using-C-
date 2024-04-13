@@ -38,6 +38,18 @@ Marc
 (Step 3.) Print a random number: print("Random Integer:", random_int)
 
 Mahin
-10.
-11.
-12.
+10. Perform matrix multiplication using NumPy. Given two matrices A and B, compute the product C = A * B.
+(Step 1.) Import NumPy.
+(Step 2.) Define matrices A and B.
+(Step 3.) Use np.dot() or @ operator for matrix multiplication.
+(Step 4.) Print the resulting matrix C.
+11. Calculate the mean and standard deviation of an array using NumPy.
+(Step 1.) Import NumPy.
+(Step 2.) Create an array.
+(Step 3.) Use np.mean() and np.std() functions to calculate mean and standard deviation.
+(Step 4.) Print the calculated values.
+12. Reshape a 1D array into a 2D array using NumPy.
+(Step 1.) Import NumPy.
+(Step 2.) Create a 1D array.
+(Step 3.) Use np.reshape() function to reshape the array.
+(Step 4.) Print the reshaped array.
