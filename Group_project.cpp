@@ -24,7 +24,7 @@ void Resources_group4();
 struct quiz_Node{
     int data;
     quiz_Node* next;
-}
+};
 void insert (int val, quiz_Node*& head){
     quiz_Node* newNode = new quiz_Node; //newNode points to the newly created Node.
     newNode->data = val; //This assigns val to the data of newNode's Node.
@@ -171,7 +171,7 @@ void Quiz_group4(){
     cout << "How many questions do you want to answer?";
     cin >> questions;
     for (int i = 0; i < questions; i++){
-        randomcheck (r)
+        randomcheck(r, head);
         switch (r) {
             case 1:
                 //question 1
@@ -304,7 +304,7 @@ void Quiz_group4(){
                     cout << "The correct answer is: B" << endl;
                 }
                 break;
-            case 11
+            case 11L:
                 //question 11
                 cout << "How do you remove all items from a dictionary?\n";
                 cout <<"A: my_dict.clear()>   " << "B: my_dict.delete_all()\n" << "C: my_dict.remove()  " << "D: clear(my_dict)" << endl;
