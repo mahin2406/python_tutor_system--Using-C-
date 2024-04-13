@@ -168,7 +168,7 @@ void Quiz_group4(){
     }
     //We might not need the correct variable for the real quiz, but this shows how the questions would execute.
     */
-    cout << "How many questions do you want to answer?";
+    cout << "How many questions do you want to answer?(Total Qustions are 20)";
     cin >> questions;
     for (int i = 0; i < questions; i++){
         randomcheck(r, head);
